@@ -1,0 +1,12 @@
+streamlit>=1.42,<2
+PyMuPDF>=1.25,<2
+Pillow>=10.4,<13
+easyocr>=1.7.2,<2
+numpy>=1.26,<3
+openai>=1.65,<3
+python-dotenv>=1.0,<2
+
+# Geliştirme ve doğrulama
+pytest>=8.3,<10
+pytest-cov>=6,<8
+

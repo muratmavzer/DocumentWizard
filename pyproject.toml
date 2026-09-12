@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "belgeiz"
+version = "0.1.0"
+description = "Türkçe ve İngilizce belgeler için kaynaklı soru-cevap MVP'si"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "streamlit>=1.42,<2",
+  "PyMuPDF>=1.25,<2",
+  "Pillow>=10.4,<13",
+  "easyocr>=1.7.2,<2",
+  "numpy>=1.26,<3",
+  "openai>=1.65,<3",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10", "pytest-cov>=6,<8"]
+
+[tool.setuptools.packages.find]
+include = ["belgeiz*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --disable-warnings"

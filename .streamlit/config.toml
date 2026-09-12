@@ -1,0 +1,22 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+runOnSave = false
+fileWatcherType = "none"
+maxUploadSize = 20
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+showSidebarNavigation = false
+
+[theme]
+primaryColor = "#E88950"
+backgroundColor = "#F7F8F6"
+secondaryBackgroundColor = "#EAF1EF"
+textColor = "#14292D"
+font = "sans-serif"
+baseRadius = "large"
+buttonRadius = "full"
