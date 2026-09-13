@@ -6,7 +6,7 @@
 
 İlk risk listesi:
 
-- “Halüsinasyon engellenecek” şartı yalnızca bir prompt ile karşılanamaz.
+- Halüsinasyon engellenmesi için dosya kabul ve güvenlik sınırları net belirlenmelidir.
 - Taranmış PDF ile metin PDF aynı dosya uzantısına sahip; sayfa bazlı fallback gerekir.
 - Türkçe eklemeli yapı salt exact token aramasını zayıflatır.
 - OCR native bağımlılıkları kolay kurulumu bozabilir.
